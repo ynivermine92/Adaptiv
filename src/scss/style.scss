@@ -1,0 +1,72 @@
+// Global SCSS-files imports
+@import './vars';
+@import './reset';
+@import './global';
+
+// Sections or Pages SCSS-files imports
+@import './header';
+@import './home';
+// @import './footer';
+
+// Libs
+// @import './libs/swiper';
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+.clock{
+  .box{
+    position: relative;
+    max-width: 1600px;
+    margin:  0 auto;       
+  }
+  &__images{         
+    object-fit: cover;
+    width: 100%;
+    height: 492px;
+    @media (max-width:650px) {
+      height:642.25px;
+  }
+  
+  }
+  &__inner{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  &__title{
+    font-size: 50px;
+    color: #ffff;
+  }
+  &__sub-title{
+    font-size: 50px;
+    color: #fff;
+  }
+}
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
